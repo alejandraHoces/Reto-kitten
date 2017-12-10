@@ -41,11 +41,13 @@
 @media (min-width: 992px) {
   .bg-kitten {
     background-image: url(../assets/images/sunny-day.jpg);
+    height: 45em;
   }
 
   .kitten {
     content: url(../assets/images/kitten-medium.png);
-    width: 50%;
-    margin-left: 20em;
+    padding-top: 25%;
+    margin-left: 30%;
+    width: 35em;
   }
 }
