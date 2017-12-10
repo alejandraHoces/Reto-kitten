@@ -7,20 +7,29 @@
 /*first-mobile*/
 .container {
   width: 100%;
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   margin:auto;
 }
 /*Fondo de imagen*/
 .bg-kitten {
   background-image: url(../assets/images/dawn.png);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*Estilos de imagen-kitten*/
 .kitten {
+  margin: 0 auto;
   width: 100%;
-  padding-top: 30em;
+  padding-top: 25em;
+}
+/*clase que le da un margen para que la imagen se mueva 4columnas a su derecha*/
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+/*tamaño del espacio de el centrado 4columnas*/
+.col-xs-4 {
+  width: 33.33333333%;
 }
 
 /*tablet*/
@@ -31,8 +40,6 @@
 
   .kitten {
     content: url(../assets/images/kitten-small.png);
-    width: 50%;
-    margin-left: 15em;
   }
 }
 
@@ -41,13 +48,9 @@
 @media (min-width: 992px) {
   .bg-kitten {
     background-image: url(../assets/images/sunny-day.jpg);
-    height: 45em;
   }
 
   .kitten {
     content: url(../assets/images/kitten-medium.png);
-    padding-top: 25%;
-    margin-left: 30%;
-    width: 35em;
   }
 }
