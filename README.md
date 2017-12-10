@@ -5,7 +5,7 @@ En el siguiente trabajo se realizo una web responsive en la cual se muestra un p
 ### Herramientas  
 Se utilizó:
 
-- CSS (Grid System & @Media Query)
+- CSS (Grid System & @Media Queries)
 - HTML
 
 ### Producto Final
