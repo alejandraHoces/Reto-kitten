@@ -45,7 +45,7 @@
 
 /*desktop*/
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .bg-kitten {
     background-image: url(../assets/images/sunny-day.jpg);
   }
